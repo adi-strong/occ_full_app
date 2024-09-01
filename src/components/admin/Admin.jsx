@@ -25,6 +25,7 @@ import PortsList from "../../features/ports/portsList";
 import PostPort from "../../features/ports/postPort";
 import ShowPort from "../../features/ports/showPort";
 import EditPort from "../../features/ports/editPort";
+import {MainLayout} from "../index";
 
 const getHeaders = () => localStorage.getItem("token") ? {
   Authorization: `Bearer ${localStorage.getItem("token")}`,
@@ -79,6 +80,7 @@ const Admin = () => {
   
   return (
     <HydraAdmin
+      layout={MainLayout}
       entrypoint={window.origin}
       dataProvider={dataProvider(setRedirectToLogin)}
       authProvider={authProvider}>

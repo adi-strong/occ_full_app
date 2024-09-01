@@ -5,6 +5,9 @@
   "dependencies": {
     "@api-platform/admin": "^4.0.1",
     "@api-platform/api-doc-parser": "^0.16.4",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^6.0.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
